@@ -82,7 +82,7 @@ if (grafo.verificaArco(Giada, Valerio)) {
 }
 
 
-    // Trova l'arco con peso minore per un nodo
+    // Permette di trovare l'arco con peso minore per un nodo
     int arcoMinimo = grafo.arcoConPesoMinore(Giada);
     if (arcoMinimo != -1) {
         std::cout << "L'arco con il peso minimo da Giada ha peso: " << arcoMinimo << std::endl;
